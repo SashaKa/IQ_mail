@@ -1007,17 +1007,17 @@ table.button.secondary table td a:visited {
   color: #fa8e00; }
 
 table.button.success table td {
-  background: #3adb76;
-  border: 2px solid #3adb76; }
+  background: #23316c;
+  border: 2px solid #23316c; }
 
 table.button.success table a {
-  border: 0px solid #3adb76; }
+  border: 0px solid #23316c; }
 
 table.button.success:hover table td {
-  background: #23bf5d; }
+  background: #172045; }
 
 table.button.success:hover table a {
-  border: 0px solid #23bf5d; }
+  border: 0px solid #172045; }
 
 table.button.alert table td {
   background: #ec5840;
@@ -1050,8 +1050,8 @@ th.callout-inner {
     border: 1px solid #2c3868;
     color: #000000; }
   th.callout-inner.success {
-    background: #e1faea;
-    border: 1px solid #1b9448;
+    background: #d5dbf2;
+    border: 1px solid #0a0e1f;
     color: #ffffff; }
   th.callout-inner.warning {
     background: #fff3d9;
@@ -1381,12 +1381,14 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
-.no-bg {
-  background: transparent; }
-
 .text-uppercase {
   text-transform: uppercase;
   font-weight: 300px; }
 
 .main-body-p {
   color: #4b5faf; }
+
+.header-table {
+  background-color: #23316c;
+  color: #fff;
+  padding: 1rem; }

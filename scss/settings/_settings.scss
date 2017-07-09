@@ -24,7 +24,7 @@ $white: #fff;
 
 $primary-color: #fa8e00;
 $secondary-color: $p-color;
-$success-color: #3adb76;
+$success-color: #23316c;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -127,11 +127,11 @@ $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-padding: 10px;
 $callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
-$callout-border-secondary: 1px solid darken($secondary-color, 20%);
-$callout-border-success: 1px solid darken($success-color, 20%);
-$callout-border-warning: 1px solid darken($warning-color, 20%);
-$callout-border-alert: 1px solid darken($alert-color, 20%);
+// $callout-border: 1px solid darken($callout-background, 20%);
+// $callout-border-secondary: 1px solid darken($secondary-color, 20%);
+// $callout-border-success: 1px solid darken($success-color, 20%);
+// $callout-border-warning: 1px solid darken($warning-color, 20%);
+// $callout-border-alert: 1px solid darken($alert-color, 20%);
 
 // 7. Menu
 // -------
