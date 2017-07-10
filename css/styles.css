@@ -803,13 +803,13 @@ h6 {
   Margin-bottom: 0; }
 
 h1 {
-  font-size: 54px; }
+  font-size: 55px; }
 
 h2 {
-  font-size: 54px; }
+  font-size: 55px; }
 
 h3 {
-  font-size: 14px; }
+  font-size: 16px; }
 
 h4 {
   font-size: 24px; }
@@ -908,22 +908,22 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #fa8e00;
+    color: #fff;
     background: transparent; }
     table.button table td.radius {
-      border-radius: 0; }
+      border-radius: 6px; }
     table.button table td.rounded {
       border-radius: 500px; }
     table.button table td a {
       font-family: "Roboto", sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: normal;
-      color: #fa8e00;
+      color: #fff;
       text-decoration: none;
       display: inline-block;
-      padding: 12px 35px 12px 35px;
+      padding: 17px 50px 15px 50px;
       border: 0px solid transparent;
-      border-radius: 0;
+      border-radius: 6px;
       text-transform: uppercase; }
 
 table.button:hover table tr td a,
@@ -938,23 +938,23 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button.tiny table td,
 table.button.tiny table a {
-  padding: 4px 8px 4px 8px; }
+  padding: 15px 30px 5px 30px; }
 
 table.button.tiny table a {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: normal; }
 
 table.button.small table td,
 table.button.small table a {
-  padding: 5px 10px 5px 10px;
-  font-size: 12px; }
+  padding: 15px 30px 5px 30px;
+  font-size: 16px; }
 
 table.button.large table a {
-  padding: 10px 20px 10px 20px;
+  padding: 17px 50px 15px 50px;
   font-size: 20px; }
 
 table.expand,
@@ -974,7 +974,7 @@ table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
   background: transparent;
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button:hover table a,
 table.button:visited table a,
@@ -983,28 +983,28 @@ table.button:active table a {
 
 table.button.secondary table td {
   background: #4b5faf;
-  color: #fa8e00;
+  color: #fff;
   border: 2px solid #4b5faf; }
 
 table.button.secondary table a {
-  color: #fa8e00;
+  color: #fff;
   border: 0px solid #4b5faf; }
 
 table.button.secondary:hover table td {
   background: #6d7dc0;
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button.secondary:hover table a {
   border: 0px solid #6d7dc0; }
 
 table.button.secondary:hover table td a {
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button.secondary:active table td a {
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button.secondary table td a:visited {
-  color: #fa8e00; }
+  color: #fff; }
 
 table.button.success table td {
   background: #23316c;
@@ -1069,7 +1069,7 @@ th.callout-inner {
   line-height: 0;
   max-width: 100%;
   transition: box-shadow 200ms ease-out;
-  border-radius: 3px;
+  border-radius: 6px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
     box-shadow: 0 0 6px 1px rgba(250, 142, 0, 0.5); }
@@ -1383,12 +1383,53 @@ body.outlook p {
 
 .text-uppercase {
   text-transform: uppercase;
-  font-weight: 300px; }
+  font-weight: 300;
+  line-height: 158px; }
 
 .main-body-p {
-  color: #4b5faf; }
+  color: #4b5faf;
+  line-height: 1.8; }
+
+.header-table-fill {
+  background-color: #23316c;
+  border-bottom: 1px solid #152258; }
 
 .header-table {
-  background-color: #23316c;
   color: #fff;
-  padding: 1rem; }
+  padding: 15px 10px 0px 10px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: bold; }
+
+.table-p {
+  font-size: 15px;
+  line-height: 38px;
+  color: #fff;
+  font-weight: 400;
+  padding: 15px 10px 0px 10px;
+  margin: 0 auto; }
+
+.table-row-decoration {
+  border-bottom: 1px solid  #1e2b64; }
+
+.body-p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff; }
+
+.body-btn {
+  padding: 17px 50px 15px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 6px;
+  background-color: #fa8e00;
+  -webkit-box-shadow: 0 2px 2px 0 #a94311;
+  box-shadow: 0 2px 2px 0 #a94311;
+  border: none; }
+  .body-btn :hover {
+    background-color: #a94311;
+    -webkit-box-shadow: 0 2px 2px 0 #fa8e00;
+    box-shadow: 0 2px 2px 0 #fa8e00;
+    outline: 0; }

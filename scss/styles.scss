@@ -1,18 +1,64 @@
 @import "foundation";
 
+body{
 
+  
+}
 
 .text-uppercase {
   text-transform: uppercase;
-  font-weight: 300px;
+  font-weight: 300;
+  line-height: 158px;
 }
 
 .main-body-p {
   color:#4b5faf;
-}
-.header-table {
- background-color: $success-color;
-  color: #fff;
-  padding: 1rem;
+  line-height: 1.8;
 }
 
+.header-table-fill {
+   background-color: $success-color;
+   border-bottom: 1px solid #152258;
+}
+.header-table {
+  color: #fff;
+  padding: 15px 10px 0px 10px;
+  margin: 0 auto;
+  font-size: 15px;
+	font-weight: bold;
+}
+.table-p{
+  font-size: 15px;
+  line-height: 38px;
+  color: #fff;
+  font-weight: 400;
+  padding: 15px 10px 0px 10px;
+  margin: 0 auto;
+}
+.table-row-decoration {
+      border-bottom: 1px solid  #1e2b64;
+}
+.body-p {
+  font-size: 15px;
+	line-height: 24px;
+  color: #fff;
+}
+.body-btn {
+  padding: 17px 50px 15px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 6px;
+	background-color:#fa8e00;
+  -webkit-box-shadow: 0 2px 2px 0 #a94311;
+  box-shadow: 0 2px 2px 0 #a94311;
+  border: none;
+  
+  :hover{
+    background-color: #a94311;
+    -webkit-box-shadow: 0 2px 2px 0 #fa8e00;
+    box-shadow: 0 2px 2px 0 #fa8e00;
+    outline: 0;
+  }
+}

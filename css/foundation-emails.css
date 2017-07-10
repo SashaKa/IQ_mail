@@ -972,13 +972,13 @@ table.button {
     background: #2199e8;
     border: 2px solid #2199e8; }
     table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Roboto', Arial, sans-serif;
       font-size: 16px;
       font-weight: bold;
       color: #fefefe;
       text-decoration: none;
       display: inline-block;
-      padding: 8px 16px 8px 16px;
+      padding:17px 50px 15px 50px,;
       border: 0 solid #2199e8;
       border-radius: 3px; }
   table.button.radius table td {

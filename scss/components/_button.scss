@@ -9,18 +9,18 @@
 /// Padding inside buttons at various sizes.
 /// @type Map
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  tiny:15px 30px 5px 30px,
+  small: 15px 30px 5px 30px,
+  default: 17px 50px 15px 50px,
+  large: 17px 50px 15px 50px,
 ) !default;
 
 /// Font sizes of buttons at various sizes.
 /// @type Map
 $button-font-size: (
-  tiny: 10px,
-  small: 12px,
-  default: 16px,
+  tiny: 14px,
+  small: 16px,
+  default: 18px,
   large: 20px,
 ) !default;
 
@@ -30,11 +30,11 @@ $button-color: $white !default;
 
 /// Text color of buttons with a light background.
 /// @type Color
-$button-color-alt: $medium-gray !default;
+$button-color-alt: $primary-color !default;
 
 /// Font weight of buttons.
 /// @type Weight
-$button-font-weight: bold !default;
+$button-font-weight: 400 !default;
 
 /// Margin around buttons.
 /// @type List

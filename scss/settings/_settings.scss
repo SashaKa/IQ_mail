@@ -42,7 +42,7 @@ $global-font-color: $black;
 $body-font-family: "Roboto", sans-serif;
 $global-padding: 16px;
 $global-margin: 16px;
-$global-radius: 3px;
+$global-radius: 6px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
 
@@ -68,9 +68,9 @@ $global-font-size: 14px;
 $body-line-height: 19px;
 $header-font-family: $body-font-family;
 $header-font-weight: bold;
-$h1-font-size: 54px;
-$h2-font-size: 54px;
-$h3-font-size: 14px;
+$h1-font-size: 55px;
+$h2-font-size: 55px;
+$h3-font-size: 16px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
@@ -100,24 +100,24 @@ $stat-font-size: 40px;
 // ---------
 
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 12px 35px 12px 35px,
-  large: 10px 20px 10px 20px,
+  tiny:15px 30px 5px 30px,
+  small: 15px 30px 5px 30px,
+  default: 17px 50px 15px 50px,
+  large: 17px 50px 15px 50px,
 );
 $button-font-size: (
-  tiny: 10px,
-  small: 12px,
-  default: 16px,
+  tiny: 14px,
+  small: 16px,
+  default: 18px,
   large: 20px,
 );
-$button-color: #fa8e00;
+$button-color: #fff;
 $button-color-alt: $medium-gray;
 $button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
 $button-background: transparent;
 
-$button-radius: 0;
+$button-radius: 6px;
 $button-rounded: $global-rounded;
 
 // 6. Callout
