@@ -1381,14 +1381,18 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
+.wrapper .header {
+  background: #a94311; }
+
 .text-uppercase {
   text-transform: uppercase;
   font-weight: 300;
-  line-height: 158px; }
+  line-height: 110px; }
 
 .main-body-p {
   color: #4b5faf;
-  line-height: 1.8; }
+  line-height: 1.8;
+  margin-bottom: 0; }
 
 .header-table-fill {
   background-color: #23316c;
