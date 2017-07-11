@@ -1,5 +1,26 @@
 .wrapper {
-  width: 100%; }
+  width: 100%;
+  background-color: #1b9448;
+   }
+              
+  .header {
+    background: #8a8a8a;
+  }
+  
+    
+  .header .wrapper-inner {
+    padding: 20px;
+    /*controls the height of the header*/
+  }
+  
+  .header .container {
+    background: #147dc2;
+  }
+  
+  .wrapper.secondary {
+    background: #147dc2;
+  }
+
 
 #outlook a {
   padding: 0; }

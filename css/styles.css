@@ -1381,8 +1381,8 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
-.wrapper .header {
-  background: #a94311; }
+.logo-wrapper {
+  background: url("../img/background-header.png") no-repeat center top !important; }
 
 .text-uppercase {
   text-transform: uppercase;
